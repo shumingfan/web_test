@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
       console.log('interfaces:', device.configuration.interfaces)
       console.log('claimInterface')
-      await device.claimInterface(2)
+      await device.claimInterface(1)
 
       console.log('set up port')
         
